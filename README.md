@@ -33,8 +33,8 @@ Use `--days 5 --output quick-results` for a shorter run. The default run recreat
 
 Conversion columns show mean conversions per day. During the price spike, the paced bidder raises bids when behind plan. That behavior can consume budget during expensive hours and leave less for later auctions. The observed trade-off suggests testing a pacing controller that accounts for both spend and expected auction value.
 
-![Spend curves](results/pacing.png)
+![Spend curves](pacing.png)
 
-![Daily conversions](results/conversions.png)
+![Daily conversions](conversions.png)
 
 The simulator supplies potential conversion outcomes for every historical impression. Real auction logs usually reveal conversion feedback only after a win and an ad exposure, and outcomes can arrive late. The replay assumes competing bids remain fixed when the campaign changes policy. Results describe these simulated conditions and need logged-data or online experimentation before any production interpretation.
