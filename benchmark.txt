@@ -1,0 +1,10 @@
+Fixed bid $0.30 | ML bid scale 0.35 | 30 evaluation days per scenario
+Normal                 | Fixed bid       |  25.9 conv/day | CPA $17.35 | 100.0% spent | $ 69.9 pacing MAE
+Normal                 | ML bid          |  36.9 conv/day | CPA $12.18 | 100.0% spent | $ 24.8 pacing MAE
+Normal                 | ML bid + pacing |  37.6 conv/day | CPA $11.96 | 100.0% spent | $  6.4 pacing MAE
+Midday price spike     | Fixed bid       |  29.6 conv/day | CPA $15.09 |  99.2% spent | $ 32.1 pacing MAE
+Midday price spike     | ML bid          |  37.5 conv/day | CPA $12.00 | 100.0% spent | $ 37.5 pacing MAE
+Midday price spike     | ML bid + pacing |  30.1 conv/day | CPA $14.97 | 100.0% spent | $ 15.0 pacing MAE
+Evening traffic surge  | Fixed bid       |  26.8 conv/day | CPA $16.77 | 100.0% spent | $ 70.8 pacing MAE
+Evening traffic surge  | ML bid          |  39.1 conv/day | CPA $11.52 | 100.0% spent | $ 32.3 pacing MAE
+Evening traffic surge  | ML bid + pacing |  41.7 conv/day | CPA $10.78 | 100.0% spent | $ 12.7 pacing MAE
